@@ -1,0 +1,11 @@
+.country{
+    margin: 20px;
+    background-color: rgb(103, 102, 102);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.countris-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
